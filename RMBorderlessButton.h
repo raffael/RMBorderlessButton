@@ -7,13 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "RMBorderlessButtonCell.h"
 
 @interface RMBorderlessButton : NSButton {
 	NSColor *_tempColor;
 }
 
-@property (strong) RMBorderlessButtonCell *customCell;
 @property (strong) NSCursor *cursor;
 @property (strong) NSColor *color;
 @property (assign) float fontSize;
